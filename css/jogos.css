@@ -1,0 +1,46 @@
+.produto-fileira {
+  display: flex;
+  align-items: end;
+  background-color: blue;
+}
+.produto-embaixo {
+  display: flex;
+  align-items: end;
+  background-color: red;
+  grid-area: embaixo;
+}
+
+.produtos-destaque {
+  display: grid;
+  margin-left: 10%;
+  width: 80%;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px 500px;
+  grid-template-areas:
+    ". . ."
+    "embaixo embaixo embaixo";
+}
+
+.produto1 {
+  background-image: url("../imagens/xbox.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+.produto2 {
+  background-image: url("../imagens/xbox.png");
+  background-position: center center;
+  background-size: cover;
+}
+.produto3 {
+  background-image: url("../imagens/xbox.png");
+  background-position: center center;
+  background-size: cover;
+}
+.produto4 {
+  background-image: url("../imagens/eagames.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
